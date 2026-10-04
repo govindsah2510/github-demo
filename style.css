@@ -1,3 +1,27 @@
-h1{
+h1 {
     color: red;
+}
+
+
+.main {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     justify-content:space-around;
+     align-items: center;
+    
+
+
+}
+
+.child{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid black;
+    /* margin: 4px; */
+   
 }
